@@ -26,11 +26,12 @@ class Restaurant
 
   def average_star_rating
     arr = reviews.map { |review| review.rating  }
-    arr.inject(:+)/arr.length
+    arr.inject(:+)/arr.length.to_f
   end
 
   def longest_review
     arr = reviews.map { |review| review.content  }
     arr.max_by { |content| content.length  }
+    # doesn't include punctuation
   end
 end

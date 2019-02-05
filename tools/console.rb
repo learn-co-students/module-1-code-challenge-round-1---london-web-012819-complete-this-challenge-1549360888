@@ -12,7 +12,8 @@ c2 = Customer.new("Elisabet", "Silje")
 c3 = Customer.new("Karl", "Fredriksson")
 c4 = Customer.new("Ricky", "McCaw")
 c5 = Customer.new("Luc", "Batty")
-ce6 = Customer.new("Karl", "Silje")
+c6 = Customer.new("Karl", "Silje")
+c7 = Customer.new("Karl", "Silje")
 
 rest1 = Restaurant.new("Bone Daddies")
 rest2 = Restaurant.new("Mc Donalds")
@@ -29,7 +30,7 @@ rev5 = Review.new(c5, rest5, 2, "Saw a mouse!")
 rev6 = Review.new(c5, rest1, 4, "Delicious!")
 rev7 = Review.new(c1, rest3, 2, "Good for groups")
 rev8 = Review.new(c5, rest3, 3, "Delicious food!")
-rev9 = Review.new(c5, rest3, 5, "Delicious food!")
+rev9 = Review.new(c5, rest3, 2, "Delicious food!")
 
 
 
