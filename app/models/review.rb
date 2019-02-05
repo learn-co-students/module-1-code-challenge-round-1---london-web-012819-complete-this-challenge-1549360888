@@ -15,4 +15,12 @@ def self.all
 @@all
 end
 
+def customer
+
+end
+
+def restaurant
+
+end
+
 end
