@@ -16,4 +16,21 @@ class Restaurant
     @@all.find {|restaurant| name == restaurant.name}
   end
 
+  def reviews
+    Review.all.select { |review| review.restaurant == self  }
+  end
+
+  def customers
+    reviews.map { |review| review.customer  }.uniq
+  end
+
+  def average_star_rating
+    arr = reviews.map { |review| review.rating  }
+    arr.inject(:+)/arr.length
+  end
+
+  def longest_review
+    arr = reviews.map { |review| review.content  }
+    arr.max_by { |content| content.length  }
+  end
 end

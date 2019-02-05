@@ -22,13 +22,14 @@ rest5 = Restaurant.new("Yo Sushi!")
 rest6 = Restaurant.new("Ceviche")
 
 rev1 = Review.new(c1, rest1, 5, "Tasty ramen! Highly recommend!")
-rev2 = Review.new(c2, rest3, 2, "Cheap and gross")
+rev2 = Review.new(c2, rest3, 2, "Cheap but grossssss")
 rev3 = Review.new(c3, rest2, 4, "Good value!")
 rev4 = Review.new(c4, rest4, 3, "Ok for lunch")
 rev5 = Review.new(c5, rest5, 2, "Saw a mouse!")
-rev5 = Review.new(c5, rest1, 4, "Delicious!")
-rev5 = Review.new(c1, rest3, 2, "Good for groups")
-rev5 = Review.new(c5, rest3, 2, "Delicious food!")
+rev6 = Review.new(c5, rest1, 4, "Delicious!")
+rev7 = Review.new(c1, rest3, 2, "Good for groups")
+rev8 = Review.new(c5, rest3, 3, "Delicious food!")
+rev9 = Review.new(c5, rest3, 5, "Delicious food!")
 
 
 
